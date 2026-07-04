@@ -1,0 +1,15 @@
+<section class="education-section" id="education">
+    <div class="header-wrapper">
+        <p class="subtitle-p">// Background</p>
+        <h2 class="header-p">Education</h2>
+    </div>
+    <div class="box-wrapper">
+        @for (education of educations; track education.major){
+            <div class="education-container">
+                    <div class="education-year">{{ education.period }}</div>
+                    <div class="education-major">{{ education.major }}</div>
+                    <div class="education-school">{{ education.school }}</div>
+            </div>
+        }
+    </div>    
+</section>

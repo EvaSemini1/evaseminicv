@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+  --paper:#FAFAF7;
+  --paper-dim:#F1F1EC;
+  --ink:#14181F;
+  --ink-soft:#4A5160;
+  --navy:#1B2A4A;
+  --signal:#1FA971;
+  --signal-bright:#2FD675;
+  --line:#DEDDD3;
+
+  --radius: 3%;
+  --custom-radius: 0px 30px 30px;
+  --text-color: gray;
+  --border-color: rgb(25, 62, 39);
+  --menu-hover: rgb(25, 62, 39);
+
+  --padding-global: 50px;
+  --padding-sides: 0px 50px;
+  --padding-mobile: 0 20px;
+  --padding-up-down: 35px 0px;
+  --padding-box: 5px 15px;
+  --padding-box-big: 20px 15px;
+  --padding-box-small: 3px 7px;
+  --btn-padding: 8px 15px;
+
+  --margin-box: 10px 0px;
+  --margin-up-down: 50px 0px;
+
+  --title-big-size: 42px;
+  --title-small-size: 25px;
+  --text-big: 20px;
+  --text-size: 16px;
+  --text-small: 14px;
+  --font-small-weight: 500;
+
+  --line-height-big: 1.9;
+
+  --gap-size-small:7px;
+  --gap-standard: 12px;
+  --gap-size: 25px;
+  --gap-size-big: 32px;
+
+  --font: 'JetBrains Mono',monospace;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+  background: white;
+  color: gray;
+  font-family:'Inter',sans-serif;
+  font-size:16px;
+  line-height:1.6;
+}

@@ -1,0 +1,16 @@
+<section id="experience" class="log">
+     <div class="header-wrapper">
+        <p class="subtitle-p">// Work experience</p>
+        <h2 class="header-p">Deployment log</h2>
+    </div>
+  <div class="log-entry" *ngFor="let job of jobs" [class.current]="job.current">
+    <div class="log-meta">
+      <span class="tag">{{ job.period }}</span>
+    </div>
+    <div class="log-role">{{ job.role }}</div>
+    <div class="log-company">{{ job.company }}</div>
+    <ul>
+      <li *ngFor="let bullet of job.bullets">{{ bullet }}</li>
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,65 @@
+.skills-section{
+    max-width: 920px;
+    display: block;
+    margin: 0 auto;
+    padding: var(--padding-global);
+}
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-size);
+}
+.category{
+    text-transform: uppercase;
+    padding: var(--padding-up-down);
+}
+.title-edu{
+     padding: var(--padding-up-down);
+}
+.skills-section-patch{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-size-big);
+}
+.skills-patch{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-standard);
+}
+.skills-stack{
+    text-transform: uppercase;
+}
+.tech-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--gap-size);
+}
+.tech{
+    border: .7px solid gray;
+    padding: var(--padding-box);
+}
+.tech:hover{
+    border: .7px solid rgb(2, 47, 2);
+    color: rgb(2, 47, 2);
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-size);
+    padding: var(--padding-up-down);
+}
+.subtitle-p{
+    color: var(--signal);
+    text-transform: uppercase;
+    font-size: var(--text-small);
+    font-style: italic;
+}
+
+@media (max-width: 720px){
+    .skills-section{
+        padding: var(--padding-mobile);
+    }
+}

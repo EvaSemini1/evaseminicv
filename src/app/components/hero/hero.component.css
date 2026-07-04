@@ -1,0 +1,45 @@
+.container-menu{display:flex;flex-direction:column;align-items:flex-start;gap:4em}
+.menu,.menu li,.menu a{display:flex}
+.menu{width:100%;justify-content:flex-end;flex-direction:row;gap:var(--gap-size-big);margin:0;padding:0;list-style:none}
+.menu li{align-items:center;gap:var(--gap-size-big);list-style:none}
+.menu a{flex-direction:column;gap:var(--gap-size-big);text-decoration:none;color:var(--text-color);font:var(--font-small-weight) var(--text-small) var(--font);transition:color .3s}
+.profile{width:140px;border:3px solid var(--border-color);border-radius:var(--radius)}
+.logo-container,.prompt,.about-container,.container{display:flex;flex-direction:column}
+.logo-container{gap:var(--gap-size)}
+.prompt{gap:var(--gap-size-small)}
+.prompt-one,.prompt-two,.prompt-three,.cta-container{display:flex;gap:var(--gap-size-big)}
+.prompt-one,.prompt-two,.prompt-three{gap:var(--gap-size-small);font-family:var(--font)}
+.available,.location,.remote{width:20px;height:20px;border:0}
+.available-p,.location-p,.remote-p,.title span,.about-me span{color:var(--signal)}
+.title span,.about-me span{font-family:var(--font)}
+.hero-section{max-width:920px;margin:0 auto;padding:var(--padding-global)}
+.hero-wrapper{display:flex;padding:var(--padding-up-down)}
+.container{flex:1;margin-left:80px;gap:var(--gap-size-big)}
+.cta-container{display:flex}
+.btn{padding:var(--btn-padding);border-radius:var(--radius);background:var(--border-color);color:var(--paper);text-decoration:none}
+.download-button{padding:var(--padding-box);border:1px solid var(--border-color);border-radius:var(--radius)}
+.download-button:hover{background:var(--border-color);color:var(--paper)}
+.title{font-size:var(--title-big-size);font-weight:var(--title-small-size)}
+
+@media(max-width:720px){
+.hero-section{padding:0 16px}
+.hero-wrapper{display:block}
+.container-menu{gap:16px;padding:16px 0}
+.logo-container img{width:48px;height:48px;border-radius:var(--raduis);object-fit:cover}
+.menu ul{display:flex;flex-direction:column;align-items:flex-start;gap:10px;width:100%}
+.menu ul li{width:100%}
+.menu li{justify-content:space-evenly;gap:var(--gap-standard)}
+.menu a{flex-direction:row;padding:6px 0}
+.download-button{display:inline-block;margin-top:6px;padding:10px 16px;border:1px solid var(--ink);border-radius:2px}
+.container{margin:auto}
+.title-container .title{font-size:26px;line-height:1.2}
+.about-container{margin-top:24px}
+.about-me{font-size:14.5px;line-height:1.55}
+.small-text{margin-top:12px;font-size:12px}
+.cta-container{flex-direction:column;gap:10px;margin-top:24px}
+.cta-container .btn{width:100%;text-align:center;justify-content:center}
+}
+
+@media(max-width:380px){
+.title-container .title{font-size:22px}
+}

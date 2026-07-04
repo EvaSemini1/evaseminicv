@@ -1,0 +1,36 @@
+.education-section{
+    max-width:920px;
+    margin:0 auto;
+    padding:72px 32px;
+}
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-size);
+}
+.subtitle-p{
+    color: var(--signal);
+    text-transform: uppercase;
+    font-size: var(--text-small);
+    font-style: italic;
+}
+.box-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-size);
+    padding: var(--padding-up-down);
+}
+.education-container{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-size-small);
+    border-left: .5px solid var(--signal);
+    padding: 0px 0px 0px 15px;
+}
+.education-year, .education-school{
+    font-family: var(--font);
+}
+.education-major{
+    font-size: var(--text-big);
+}
